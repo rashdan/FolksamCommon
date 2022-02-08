@@ -4,13 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "FolksamCommonSDK",
-//    platforms: [.iOS(.v13)],
+    name: "FolksamCommon",
+    platforms: [
+        .macOS(.v10_14),
+        .iOS(.v13),
+        .tvOS(.v10),
+        .watchOS(.v3)
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "FolksamCommonSDK",
-            targets: ["FolksamCommonSDK"]),
+            name: "FolksamCommon",
+            targets: ["FolksamCommon"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,10 +25,10 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "FolksamCommonSDK",
+            name: "FolksamCommon",
             dependencies: []),
         .testTarget(
-            name: "FolksamCommonSDKTests",
-            dependencies: ["FolksamCommonSDK"]),
+            name: "FolksamCommonTests",
+            dependencies: ["FolksamCommon"]),
     ]
 )
