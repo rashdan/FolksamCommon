@@ -60,7 +60,7 @@ public enum FolksamColor {
 
 extension UIColor {
     convenience init(requiredNamed imageName: String) {
-        self.init(named: imageName, in: Bundle(identifier: "com.folksam.folksamapp.folksamui"), compatibleWith: nil)!
+        self.init(named: imageName, in: Bundle(identifier: "com.folksam.folksamapp.folksamCommon"), compatibleWith: nil)!
     }
 }
 #endif
