@@ -1,0 +1,109 @@
+{
+    "async": false,
+    "channel": null,
+    "server": null,
+    "data": {
+        "annualAmount": 317,
+        "adjustments": [
+            {
+                "adjustmentCode": "ATG",
+                "adjustmentDescription": "Skadeförebyggande rabatt",
+                "discounts": [
+                    {
+                        "code": "SKD",
+                        "codeDescription": "säkerhetsdörr/Gallergrind",
+                        "discountAmount": 23
+                    }
+                ]
+            },
+            {
+                "adjustmentCode": "AMB",
+                "adjustmentDescription": "Personalrabatt",
+                "discounts": [
+                    {
+                        "code": "PRS",
+                        "codeDescription": "anställd på Folksam",
+                        "discountAmount": 114
+                    }
+                ]
+            }
+        ],
+        "categoryCombinationCode": "BMT",
+        "categoryCombinationDescription": "Bostadsrätt kopplad till K-hem",
+        "groupName": "Folksams hemförsäkring Stor för anställda",
+        "groupProposal": null,
+        "groupProposalFailed": false,
+        "insurances": [
+            {
+                "coverages": [
+                    {
+                        "code": "BSK",
+                        "codeDescription": "Bortaskydd - 80 000 kr",
+                        "deductibleAmount": 900,
+                        "deductibleDescription": "900 kr",
+                        "insuranceAmount": 80000,
+                        "mandatoryCoverage": true
+                    },
+                    {
+                        "code": "ALR",
+                        "codeDescription": "Allrisk - 80 000 kr",
+                        "deductibleAmount": 900,
+                        "deductibleDescription": "900 kr",
+                        "insuranceAmount": 80000,
+                        "mandatoryCoverage": true
+                    },
+                    {
+                        "code": "RKL",
+                        "codeDescription": "Resklar",
+                        "deductibleAmount": 0,
+                        "deductibleDescription": "Ingen självrisk",
+                        "insuranceAmount": null,
+                        "mandatoryCoverage": true
+                    }
+                ],
+                "insuranceCode": "O01",
+                "insuranceDescription": "Lösöre",
+                "rangeCode": "TLS",
+                "rangeDescription": "uppgradering till Hemförsäkring Stor"
+            },
+            {
+                "coverages": [
+                    {
+                        "code": "STB",
+                        "codeDescription": "Egendomsskydd för din bostadsrätt",
+                        "deductibleAmount": 1800,
+                        "deductibleDescription": "1 800 kr",
+                        "insuranceAmount": null,
+                        "mandatoryCoverage": true
+                    },
+                    {
+                        "code": "BRX",
+                        "codeDescription": "Borätt Extra",
+                        "deductibleAmount": 1800,
+                        "deductibleDescription": "1 800 kr",
+                        "insuranceAmount": null,
+                        "mandatoryCoverage": true
+                    }
+                ],
+                "insuranceCode": "O04",
+                "insuranceDescription": "Bostadsrätt",
+                "rangeCode": "STB",
+                "rangeDescription": "Egendomsskydd för din bostadsrätt"
+            }
+        ],
+        "mainDueDate": "2022-06-15",
+        "paymentAmount": 317,
+        "paymentFrequency": "Helår",
+        "paymentMethod": "Faktura",
+        "policyId": "CV-1083059-699",
+        "productTermCode": "S2940",
+        "productTermDate": "2021-01-01",
+        "riskDescription": null,
+        "startDate": "2021-06-15",
+        "status": "ACTIVE",
+        "versionDate": "2021-06-15",
+        "validToDate": null,
+        "brandCode": "FOL",
+        "brandText": "Folksam"
+    }
+}
