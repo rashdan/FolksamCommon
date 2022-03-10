@@ -20,7 +20,7 @@ public protocol BaseViewController: UIViewController {
 
 public extension BaseViewController {
     static func make(viewModel: V) -> T {
-        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle(for: Self.self))
+        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.module)
         let vc = UIStoryboard.instantiateViewController(from: storyboard, ofType: self)
         vc.viewModel = viewModel
         // swiftlint:disable force_cast
